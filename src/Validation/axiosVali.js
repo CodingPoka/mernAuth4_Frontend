@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: 'http://localhost:3423/api', // Backend API URL
+  baseURL: 'https://mernauth4-backend.vercel.app/', // Backend API URL
   withCredentials: true, // To send cookies (JWT token) with each request
 });
 
